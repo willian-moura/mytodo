@@ -1,11 +1,25 @@
 import React from "react";
-import { Container } from "./styled";
-import { Button } from "../../components/buttons";
+import {
+  Container,
+  LogoContainer,
+  SearchContainer,
+  ActionsContainer,
+} from "./styled";
+import { ButtonPrimary } from "../../components/buttons";
+import Search from "../../components/search";
 
 const Navbar = () => {
   return (
     <Container>
-      <Button backgroundColor="#FFFFFF">Teste</Button>
+      <LogoContainer></LogoContainer>
+
+      <SearchContainer>
+        <Search />
+      </SearchContainer>
+
+      <ActionsContainer>
+        <ButtonPrimary text="Add" />
+      </ActionsContainer>
     </Container>
   );
 };
