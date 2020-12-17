@@ -1,0 +1,17 @@
+body,
+html {
+  word-wrap: break-word;
+  scroll-behavior: smooth;
+  background-color: #fbfbfb;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  outline: none;
+}
+a {
+  text-decoration: none; /* no underline */
+}
+
