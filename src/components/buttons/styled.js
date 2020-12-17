@@ -1,6 +1,9 @@
 import styled from "styled-components";
-import { Button } from "antd";
 
-export const ButtonStyle = styled(Button)`
-  background-color: ${(props) => console.log(props)};
+export const Container = styled.div`
+  margin: 0;
+  padding: 0;
+  .antd-btn-primary :hover {
+    background-color: #fff !important;
+  }
 `;
